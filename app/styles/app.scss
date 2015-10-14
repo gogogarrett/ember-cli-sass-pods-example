@@ -1,0 +1,24 @@
+// resets
+// @import 'reset';
+html,body {
+  padding: 0; margin: 0;
+}
+
+// variables
+// @import 'variables';
+$color: blue;
+
+// normalization
+// @import 'normalization';
+
+// layout
+// @import 'layout';
+
+@import "pod-styles"; // all ember components
+
+// themes
+// @import 'mathseeds';
+
+.global-css-thing {
+  color: pink;
+}
